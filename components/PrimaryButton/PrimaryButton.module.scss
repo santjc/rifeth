@@ -1,0 +1,26 @@
+@import "../../styles/variables.scss";
+.container{
+    display: flex;
+    max-width: 300px;
+}
+.button{
+    display: flex;
+    padding: 12px 24px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    color: $brand-black;
+    border: 2px solid $brand-black;
+    background-color: $base-white;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.button:hover{
+    background-color: $brand-lightred;
+    border-color: $brand-red;
+    color: $base-white;
+}

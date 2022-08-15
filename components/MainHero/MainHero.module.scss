@@ -1,0 +1,35 @@
+@import "../../styles/variables.scss";
+.hero {
+  padding: 64px;
+  border-bottom: 2px solid $brand-grey;
+  display: flex;
+}
+.heroColumn {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.heroTitle {
+  font-size: 56px;
+  span {
+    font-weight: 900;
+    color: $brand-lightred;
+  }
+}
+
+.heroSubtitle{
+    margin: 8px 0;
+    line-height: 1;
+    font-size: 28px;
+    color: $brand-black;
+}
+
+.heroExcerpt{
+    margin: 0;
+    color: $brand-grey;
+}
+
+.heroButton{
+    margin: 24px 0;
+}

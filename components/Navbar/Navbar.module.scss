@@ -1,0 +1,32 @@
+@import '../../styles/variables.scss';
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 32px;
+    border-bottom: 1px solid $brand-black;
+}
+.logoContainer{
+    font-weight: 900;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.logoContainer:hover{
+    filter: blur(1px);
+}
+.optionContainer{
+    display: flex;
+    justify-content: flex-end;
+    margin: auto 0;
+    gap: 8px;
+}
+
+.option{
+    font-size: 16px;
+    font-weight: 600;
+    margin: auto 0;
+    color: $brand-black;
+    transition: 0.2s;
+    cursor: pointer;
+}
